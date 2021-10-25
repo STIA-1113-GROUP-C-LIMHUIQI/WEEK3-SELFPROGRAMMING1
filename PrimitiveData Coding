@@ -1,0 +1,27 @@
+package exercise2;
+
+public class PrimitiveData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int oneThousand = 1000;
+		double oneMillion = 1000 * oneThousand;
+		double oneBillion = 1000 * oneMillion;
+		double threeBillion = 3 * oneBillion;
+
+		//Max value for int is + 2,147,483,647
+		//Use long or double instead of int
+		
+		System.out.print("One Thousand: ");
+		System.out.println(oneThousand);
+		System.out.print("One Million: ");
+		System.out.println(oneMillion);
+		System.out.print("One Billion: ");
+		System.out.println(oneBillion);
+		System.out.print("Three Billion: ");
+		System.out.println(threeBillion);
+
+	}
+
+}
