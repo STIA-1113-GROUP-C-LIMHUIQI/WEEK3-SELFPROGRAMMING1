@@ -1,0 +1,97 @@
+package numericalData;
+
+import java.util.Scanner;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name;
+		double cgpa;
+		char grade;
+		int number1;
+		int number2;
+		int number3;
+		int number4;
+		int number5;
+		int number6;
+		float number7;
+		float number8;
+		double number9;
+		double number10;
+
+		
+		Scanner scanMe = new Scanner (System.in); //create new object
+		
+		System.out.println("Enter your name: ");
+		name = scanMe.nextLine();
+		System.out.println("Enter your cgpa: ");
+		cgpa = scanMe.nextDouble();
+		System.out.println("Enter your math grade: ");
+		grade = scanMe.next().charAt(0);
+		System.out.println();
+		
+		System.out.println("Enter number 1 = "); //input statement
+		number1 = scanMe.nextInt(); // nextInt = input type integer
+		System.out.println("Enter number 2 = ");
+		number2 = scanMe.nextInt();
+		System.out.println("Enter number 3 = ");
+		number3 = scanMe.nextInt();
+		System.out.println("Enter number 4 = ");
+		number4 = scanMe.nextInt();
+		System.out.println("Enter number 5 = ");
+		number5 = scanMe.nextInt();
+		System.out.println("Enter number 6 = ");
+		number6 = scanMe.nextInt();
+		System.out.println("Enter number 7 = ");
+		number7 = scanMe.nextFloat();
+		System.out.println("Enter number 8 = ");
+		number8 = scanMe.nextFloat();
+		System.out.println("Enter number 9 = ");
+		number9 = scanMe.nextDouble();
+		System.out.println("Enter number 10 = ");
+		number10 = scanMe.nextDouble();
+		
+		System.out.println("Name = " +name);//print data
+		System.out.println("Cgpa = " +cgpa);
+		System.out.println("Math Grade= " +grade);
+		System.out.println("Number 1 = " +number1); 
+		System.out.println("Number 2 = " +number2); 
+		System.out.println("Number 3 = " +number3);
+		System.out.println("Number 4 = " +number4);
+		System.out.println("Number 5 = " +number5);
+		System.out.println("Number 6 = " +number6);
+		System.out.println("Number 7 = " +number7);
+		System.out.println("Number 8 = " +number8);
+		System.out.println("Number 9 = " +number9);
+		System.out.println("Number 10 = " +number10);
+		System.out.println();
+		
+		int sum; 
+		int sum2; 
+		int sum3; 
+		float sum4; 
+		double sum5;
+		int average;
+		double sum6;
+		
+		sum = number1 + number2 + number3 + number4 + number5 + number6;
+		sum2 = number6 - number1;
+		sum3 = number1 * number2 * number3 * number4 * number5 * number6;
+		sum4 = number8 / number7;
+		sum5 = number10 / number9;
+		average = sum/6;
+		sum6 = sum4 + sum5;
+		
+		System.out.printf("The sum is %d\n", sum);
+		System.out.printf("The sum2 is %d\n", sum2);
+		System.out.printf("The sum3 is %d\n", sum3);
+		System.out.printf("The sum4 is %.2f\n", sum4);
+		System.out.printf("The sum5 is %.2f\n", sum5);
+		System.out.printf("The average of 6 integer is %d\n", average);
+		System.out.printf("The sum6 is %.2f\n", sum6);
+
+	}
+
+}
