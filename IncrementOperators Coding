@@ -5,11 +5,12 @@ public class IncrementOperators {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int m, result1, result2;
+		int m, n, result1, result2;
 		
 		m = 4;
-		result1 = 3 * ++m;
-		result2 = 3 * m++;
+		n = 4;
+		result1 = 3 * (++ m);
+		result2 = 3 * (n ++);
 		
 		System.out.println("The result 1 is " + result1);
 		System.out.println("The result 2 is " + result2);
