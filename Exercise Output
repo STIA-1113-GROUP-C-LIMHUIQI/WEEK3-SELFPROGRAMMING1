@@ -1,0 +1,48 @@
+Enter your name: 
+Lim
+Enter your cgpa: 
+3.33
+Enter your math grade: 
+A
+
+Enter number 1 = 
+11
+Enter number 2 = 
+22
+Enter number 3 = 
+33
+Enter number 4 = 
+44
+Enter number 5 = 
+55
+Enter number 6 = 
+66
+Enter number 7 = 
+77
+Enter number 8 = 
+88
+Enter number 9 = 
+99
+Enter number 10 = 
+100
+Name = Lim
+Cgpa = 3.33
+Math Grade= A
+Number 1 = 11
+Number 2 = 22
+Number 3 = 33
+Number 4 = 44
+Number 5 = 55
+Number 6 = 66
+Number 7 = 77.0
+Number 8 = 88.0
+Number 9 = 99.0
+Number 10 = 100.0
+
+The sum is 231
+The sum2 is 55
+The sum3 is 1275523920
+The sum4 is 1.14
+The sum5 is 1.01
+The average of 6 integer is 38
+The sum6 is 2.15
