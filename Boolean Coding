@@ -1,0 +1,15 @@
+package exercise2;
+
+public class BooleanClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boolean Odd = true;
+		boolean Even = false;
+		System.out.println(Odd);     // Outputs true
+		System.out.println(Even); 
+
+	}
+
+}
